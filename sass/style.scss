@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    font-family: poppins, sans-serif;
+}
+
+.container{
+    width: 90%;
+    height: 100vh;
+
+    .scroll{
+        height: 100vh;
+    }
+
+    header{
+        padding: 2rem;
+
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        ul{
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        li{
+            list-style: none;
+            margin: 0 1rem;
+        }
+
+        .buttons{
+            button{              
+                padding: .5rem;
+                border-radius: 10px;
+                border: none;
+                margin: 0 .7rem;
+            }        
+        }
+    }
+
+    main{
+
+        .conteudo{
+            display: flex;
+            .info{
+                width: 50%;
+                height: 100vh;
+                display: flex;
+                align-items: center;
+                margin-top: -7rem;
+                h1{
+                    font-size: 3.5rem;
+                }
+                button{
+                    padding: 1rem;
+                    margin-top: 1rem;
+                    border-radius: 10px;
+                    border: none;
+                    font-size: 1rem;
+                    background-color: #00A6F5;
+                    color: white;
+                }
+
+            }
+
+            .medias{
+                width: 50%;
+                height: 100vh;
+                position: relative;
+                margin: 3rem 0;
+                img{
+                    width: 8rem;
+                }
+
+                .social-medias .rellax:nth-child(1){
+                    position: absolute;
+                    top: 0;
+                    left: 10%;
+                    img{
+                        width: 15rem;
+                    }
+                    
+                }
+                .social-medias .rellax:nth-child(2){
+                    position: absolute;
+                    top: 20%;
+                    right: 10%;
+                    img{
+                        width: 10rem;
+                    }
+                }
+                .social-medias .rellax:nth-child(3){
+                    position: absolute;
+                    top: 45%;
+                    right:30%;
+                    img{
+                        width: 8rem;
+                    }
+                }
+                .social-medias .rellax:nth-child(4){
+                    position: absolute;
+                    top: 60%;
+                    right:55% ;
+                    img{
+                        width: 6rem;
+                    }
+                }
+                .social-medias .rellax:nth-child(5){
+                    position: absolute;
+                    top: 38%;
+                    right: 60%;
+                    img{
+                        width: 9rem;
+                    }
+
+                }
+            }
+        }
+
+    }
+}

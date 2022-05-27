@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: poppins, sans-serif;
+}
+
+.container {
+  width: 90%;
+  height: 100vh;
+}
+.container .scroll {
+  height: 100vh;
+}
+.container header {
+  padding: 2rem;
+}
+.container header nav {
+  display: flex;
+  justify-content: space-between;
+}
+.container header ul {
+  display: flex;
+  justify-content: flex-start;
+}
+.container header li {
+  list-style: none;
+  margin: 0 1rem;
+}
+.container header .buttons button {
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: none;
+  margin: 0 0.7rem;
+}
+.container main .conteudo {
+  display: flex;
+}
+.container main .conteudo .info {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  margin-top: -7rem;
+}
+.container main .conteudo .info h1 {
+  font-size: 3.5rem;
+}
+.container main .conteudo .info button {
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  background-color: #00A6F5;
+  color: white;
+}
+.container main .conteudo .medias {
+  width: 50%;
+  height: 100vh;
+  position: relative;
+  margin: 3rem 0;
+}
+.container main .conteudo .medias img {
+  width: 8rem;
+}
+.container main .conteudo .medias .social-medias .rellax:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 10%;
+}
+.container main .conteudo .medias .social-medias .rellax:nth-child(1) img {
+  width: 15rem;
+}
+.container main .conteudo .medias .social-medias .rellax:nth-child(2) {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+}
+.container main .conteudo .medias .social-medias .rellax:nth-child(2) img {
+  width: 10rem;
+}
+.container main .conteudo .medias .social-medias .rellax:nth-child(3) {
+  position: absolute;
+  top: 45%;
+  right: 30%;
+}
+.container main .conteudo .medias .social-medias .rellax:nth-child(3) img {
+  width: 8rem;
+}
+.container main .conteudo .medias .social-medias .rellax:nth-child(4) {
+  position: absolute;
+  top: 60%;
+  right: 55%;
+}
+.container main .conteudo .medias .social-medias .rellax:nth-child(4) img {
+  width: 6rem;
+}
+.container main .conteudo .medias .social-medias .rellax:nth-child(5) {
+  position: absolute;
+  top: 38%;
+  right: 60%;
+}
+.container main .conteudo .medias .social-medias .rellax:nth-child(5) img {
+  width: 9rem;
+}
